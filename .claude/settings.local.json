@@ -1,5 +1,10 @@
 {
   "skillOverrides": {
     "anthropic-skills:built-in-browser": "name-only"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(git push *)"
+    ]
   }
 }
